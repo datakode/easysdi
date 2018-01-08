@@ -1,0 +1,6 @@
+#Ignore:
+
+/src/*
+/utils/*
+*/target/*
+*/META-INF/*
