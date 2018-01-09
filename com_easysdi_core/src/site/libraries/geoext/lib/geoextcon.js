@@ -153,7 +153,6 @@ Ext.extend(GeoExt.data.AttributeReader, Ext.data.DataReader, {
         return ignore;
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -343,7 +342,6 @@ GeoExt.data.AttributeStore = Ext.extend(
     Ext.data.Store,
     GeoExt.data.AttributeStoreMixin()
 );
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -436,7 +434,6 @@ GeoExt.data.FeatureRecord.create = function(o) {
 
     return f;
 };
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -563,7 +560,6 @@ Ext.extend(GeoExt.data.FeatureReader, Ext.data.DataReader, {
         };
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -1017,7 +1013,6 @@ GeoExt.data.FeatureStore.LAYER_TO_STORE = 1;
  * when changes occur in the store.
  */
 GeoExt.data.FeatureStore.STORE_TO_LAYER = 2;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -1123,7 +1118,6 @@ GeoExt.data.LayerRecord.create = function(o) {
 
     return f;
 };
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -1213,7 +1207,6 @@ Ext.extend(GeoExt.data.LayerReader, Ext.data.DataReader, {
         };
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -1670,7 +1663,6 @@ GeoExt.data.LayerStore.MAP_TO_STORE = 1;
  * when changes occur in the store.
  */
 GeoExt.data.LayerStore.STORE_TO_MAP = 2;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -1806,7 +1798,6 @@ GeoExt.data.ScaleStore = Ext.extend(Ext.data.Store, {
         GeoExt.data.ScaleStore.superclass.destroy.apply(this, arguments);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2254,7 +2245,6 @@ Ext.extend(GeoExt.data.WMSCapabilitiesReader, Ext.data.DataReader, {
         return markup.join(" ");
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2316,7 +2306,6 @@ GeoExt.data.WMSCapabilitiesStore = function(c) {
     );
 };
 Ext.extend(GeoExt.data.WMSCapabilitiesStore, Ext.data.Store);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2712,7 +2701,6 @@ Ext.extend(GeoExt.data.WFSCapabilitiesReader, Ext.data.DataReader, {
         };
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2774,7 +2762,6 @@ GeoExt.data.WFSCapabilitiesStore = function(c) {
     );
 };
 Ext.extend(GeoExt.data.WFSCapabilitiesStore, Ext.data.Store);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2877,7 +2864,6 @@ Ext.extend(GeoExt.data.WMSDescribeLayerReader, Ext.data.DataReader, {
 
     }
 });
-
 /**x
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -2939,7 +2925,6 @@ GeoExt.data.WMSDescribeLayerStore = function(c) {
     );
 };
 Ext.extend(GeoExt.data.WMSDescribeLayerStore, Ext.data.Store);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -3057,7 +3042,6 @@ Ext.extend(GeoExt.data.WMCReader, Ext.data.DataReader, {
     }
 
 });
-
 
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
@@ -3188,7 +3172,6 @@ Ext.extend(GeoExt.data.CSWRecordsReader, Ext.data.JsonReader, {
         return result;
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -3471,7 +3454,6 @@ GeoExt.Action = Ext.extend(Ext.Action, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -3613,7 +3595,6 @@ Ext.extend(GeoExt.data.ProtocolProxy, Ext.data.DataProxy, {
         }
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -4021,7 +4002,6 @@ GeoExt.FeatureRenderer = Ext.extend(Ext.BoxComponent, {
 
 /** api: xtype = gx_renderer */
 Ext.reg('gx_renderer', GeoExt.FeatureRenderer);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -4495,7 +4475,6 @@ GeoExt.MapPanel.guess = function() {
 
 /** api: xtype = gx_mappanel */
 Ext.reg('gx_mappanel', GeoExt.MapPanel); 
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -4922,7 +4901,6 @@ GeoExt.Popup = Ext.extend(Ext.Window, {
 
 /** api: xtype = gx_popup */
 Ext.reg('gx_popup', GeoExt.Popup);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5177,7 +5155,6 @@ GeoExt.form.recordToField.REGEXES = {
         "^(date|dateTime)$", "i"
     )
 };
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5334,7 +5311,6 @@ GeoExt.form.SearchAction = Ext.extend(Ext.form.Action, {
         }
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5420,7 +5396,6 @@ GeoExt.form.BasicForm = Ext.extend(Ext.form.BasicForm, {
         return this.doAction("search", options);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * Published under the BSD license.
@@ -5713,7 +5688,6 @@ GeoExt.form.GeocoderComboBox = Ext.extend(Ext.form.ComboBox, {
 
 /** api: xtype = gx_geocodercombo */
 Ext.reg("gx_geocodercombo", GeoExt.form.GeocoderComboBox);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5816,7 +5790,6 @@ GeoExt.form.FormPanel = Ext.extend(Ext.form.FormPanel, {
 
 /** api: xtype = gx_formpanel */
 Ext.reg("gx_formpanel", GeoExt.form.FormPanel);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5867,7 +5840,6 @@ GeoExt.grid.SymbolizerColumn = Ext.extend(Ext.grid.Column, {
 
 /** api: xtype = gx_symbolizercolumn */
 Ext.grid.Column.types.gx_symbolizercolumn = GeoExt.grid.SymbolizerColumn;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -5977,7 +5949,6 @@ GeoExt.SliderTip = Ext.extend(Ext.slider.Tip, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -6056,7 +6027,6 @@ GeoExt.LayerOpacitySliderTip = Ext.extend(GeoExt.SliderTip, {
         return this.compiledTemplate.apply(data);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -6141,7 +6111,6 @@ GeoExt.ZoomSliderTip = Ext.extend(GeoExt.SliderTip, {
         return this.compiledTemplate.apply(data);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -6594,7 +6563,6 @@ GeoExt.tree.LayerNode = Ext.extend(Ext.tree.AsyncTreeNode, {
  * NodeType: gx_layer
  */
 Ext.tree.TreePanel.nodeTypes.gx_layer = GeoExt.tree.LayerNode;
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  * 
@@ -6686,7 +6654,6 @@ GeoExt.tree.TreeNodeUIEventMixin = function(){
         }
     };
 };
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  * 
@@ -6804,7 +6771,6 @@ GeoExt.plugins.TreeNodeComponent = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_treenodecomponent */
 Ext.preg("gx_treenodecomponent", GeoExt.plugins.TreeNodeComponent);
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  * 
@@ -6952,7 +6918,6 @@ GeoExt.plugins.TreeNodeRadioButton = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_treenoderadiobutton */
 Ext.preg("gx_treenoderadiobutton", GeoExt.plugins.TreeNodeRadioButton);
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  * 
@@ -7162,7 +7127,6 @@ GeoExt.plugins.TreeNodeActions = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_treenodeactions */
 Ext.preg("gx_treenodeactions", GeoExt.plugins.TreeNodeActions);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -7503,7 +7467,6 @@ Ext.extend(GeoExt.tree.LayerLoader, Ext.util.Observable, {
         this.iconCls = null;
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -7609,7 +7572,6 @@ GeoExt.tree.LayerContainer = Ext.extend(Ext.tree.AsyncTreeNode, {
  * NodeType: gx_layercontainer
  */
 Ext.tree.TreePanel.nodeTypes.gx_layercontainer = GeoExt.tree.LayerContainer;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -7683,7 +7645,6 @@ GeoExt.tree.BaseLayerContainer = Ext.extend(GeoExt.tree.LayerContainer, {
  * NodeType: gx_baselayercontainer
  */
 Ext.tree.TreePanel.nodeTypes.gx_baselayercontainer = GeoExt.tree.BaseLayerContainer;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -7748,7 +7709,6 @@ GeoExt.tree.OverlayLayerContainer = Ext.extend(GeoExt.tree.LayerContainer, {
  * NodeType: gx_overlaylayercontainer
  */
 Ext.tree.TreePanel.nodeTypes.gx_overlaylayercontainer = GeoExt.tree.OverlayLayerContainer;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -8004,7 +7964,6 @@ GeoExt.tree.LayerParamNode = Ext.extend(Ext.tree.TreeNode, {
  * NodeType: gx_layerparam
  */
 Ext.tree.TreePanel.nodeTypes.gx_layerparam = GeoExt.tree.LayerParamNode;
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -8161,7 +8120,6 @@ Ext.extend(GeoExt.tree.LayerParamLoader, Ext.util.Observable, {
         return new Ext.tree.TreePanel.nodeTypes[attr.nodeType](attr);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -8302,7 +8260,6 @@ Ext.extend(GeoExt.tree.WMSCapabilitiesLoader, Ext.tree.TreeLoader, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * Published under the BSD license.
@@ -8689,7 +8646,6 @@ GeoExt.LayerOpacitySlider = Ext.extend(Ext.slider.SingleSlider, {
 
 /** api: xtype = gx_opacityslider */
 Ext.reg('gx_opacityslider', GeoExt.LayerOpacitySlider);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -8943,7 +8899,6 @@ GeoExt.LayerLegend.supports = function(layerRecord) {
  *          GeoExt.GetLegendGraphicLegend;
  */
 GeoExt.LayerLegend.types = {};
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -9078,7 +9033,6 @@ GeoExt.LegendImage = Ext.extend(Ext.BoxComponent, {
 
 /** api: xtype = gx_legendimage */
 Ext.reg('gx_legendimage', GeoExt.LegendImage);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -9143,7 +9097,6 @@ GeoExt.LayerLegend.types["gx_urllegend"] = GeoExt.UrlLegend;
 
 /** api: xtype = gx_urllegend */
 Ext.reg('gx_urllegend', GeoExt.UrlLegend);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -9416,7 +9369,6 @@ GeoExt.LayerLegend.types["gx_wmslegend"] = GeoExt.WMSLegend;
 
 /** api: xtype = gx_wmslegend */
 Ext.reg('gx_wmslegend', GeoExt.WMSLegend);
-
 /**
  * Copyright (c) 2008-2011 The Open Source Geospatial Foundation
  * 
@@ -10300,7 +10252,6 @@ GeoExt.LayerLegend.types["gx_vectorlegend"] = GeoExt.VectorLegend;
 
 /** api: xtype = gx_vectorlegend */
 Ext.reg("gx_vectorlegend", GeoExt.VectorLegend); 
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -10539,7 +10490,6 @@ GeoExt.LegendPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gx_legendpanel */
 Ext.reg('gx_legendpanel', GeoExt.LegendPanel);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -10832,7 +10782,6 @@ GeoExt.ZoomSlider = Ext.extend(Ext.slider.SingleSlider, {
 
 /** api: xtype = gx_zoomslider */
 Ext.reg('gx_zoomslider', GeoExt.ZoomSlider);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -11220,7 +11169,6 @@ GeoExt.grid.FeatureSelectionModel = Ext.extend(
     Ext.grid.RowSelectionModel,
     new GeoExt.grid.FeatureSelectionModelMixin
 );
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -11564,7 +11512,6 @@ GeoExt.data.PrintPage = Ext.extend(Ext.util.Observable, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -11764,7 +11711,6 @@ GeoExt.plugins.PrintPageField = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_printpagefield */
 Ext.preg("gx_printpagefield", GeoExt.plugins.PrintPageField);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -11953,7 +11899,6 @@ GeoExt.plugins.PrintProviderField = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_printproviderfield */
 Ext.preg("gx_printproviderfield", GeoExt.plugins.PrintProviderField);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -12361,7 +12306,6 @@ GeoExt.plugins.PrintExtent = Ext.extend(Ext.util.Observable, {
 
 /** api: ptype = gx_printextent */
 Ext.preg("gx_printextent", GeoExt.plugins.PrintExtent);
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  *
@@ -12522,7 +12466,6 @@ GeoExt.plugins.AttributeForm.prototype = {
 
 /** api: ptype = gx_attributeform */
 Ext.preg("gx_attributeform", GeoExt.plugins.AttributeForm);
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  * 
@@ -12916,7 +12859,6 @@ GeoExt.PrintMapPanel = Ext.extend(GeoExt.MapPanel, {
 /** api: xtype = gx_printmappanel */
 Ext.reg('gx_printmappanel', GeoExt.PrintMapPanel); 
 
-
 /**
  * Copyright (c) 2008-2009 The Open Source Geospatial Foundation
  *
@@ -13059,7 +13001,6 @@ Ext.extend(GeoExt.state.PermalinkProvider, Ext.state.Provider, {
         return Ext.urlAppend(base, paramsStr);
     }
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Source Geospatial Foundation
  *
@@ -13193,5 +13134,4 @@ GeoExt.Lang = new (Ext.extend(Ext.util.Observable, {
         this.fireEvent("localize", locale);
     }
 }))();
-
 

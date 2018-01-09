@@ -507,7 +507,6 @@ sdi.gxp.plugins.Print = Ext.extend(gxp.plugins.Print, {
 });
 
 Ext.preg(sdi.gxp.plugins.Print.prototype.ptype, sdi.gxp.plugins.Print);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -634,7 +633,6 @@ sdi.gxp.plugins.LayerManager = Ext.extend(sdi.gxp.plugins.LayerTree, {
 });
 
 Ext.preg(sdi.gxp.plugins.LayerManager.prototype.ptype, sdi.gxp.plugins.LayerManager);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -940,7 +938,6 @@ sdi.gxp.plugins.LoadingIndicator = Ext.extend(gxp.plugins.LoadingIndicator, {
 });
 
 Ext.preg(sdi.gxp.plugins.LoadingIndicator.prototype.ptype, sdi.gxp.plugins.LoadingIndicator);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -1019,7 +1016,6 @@ sdi.gxp.plugins.WMSSource = Ext.extend(gxp.plugins.WMSSource, {
 });
 
 Ext.preg(sdi.gxp.plugins.WMSSource.prototype.ptype, sdi.gxp.plugins.WMSSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1119,7 +1115,6 @@ sdi.gxp.plugins.GoogleGeocoder = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(sdi.gxp.plugins.GoogleGeocoder.prototype.ptype, sdi.gxp.plugins.GoogleGeocoder);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1747,7 +1742,6 @@ sdi.gxp.form.GoogleGeocoderComboBox = Ext.extend(gxp.form.GoogleGeocoderComboBox
 
 Ext.reg('sdi_gxp_googlegeocodercombobox', sdi.gxp.form.GoogleGeocoderComboBox);
 
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -1813,7 +1807,6 @@ sdi.geoext.data.PrintProvider = Ext.extend(GeoExt.data.PrintProvider, {
   
     
 });
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -1898,7 +1891,6 @@ sdi.geoext.ux.PrintPreview = Ext.extend(GeoExt.ux.PrintPreview, {
         });
     }
 });
-
 
 /**
  * @version     4.4.5
@@ -1990,7 +1982,6 @@ sdi.geoext.widgets.PrintMapPanel = Ext.extend(GeoExt.PrintMapPanel, {
     
    
 });
-
 
 /**
  * @version     4.4.5
@@ -2084,7 +2075,6 @@ sdi.plugins.SearchCatalog = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(sdi.plugins.SearchCatalog.prototype.ptype, sdi.plugins.SearchCatalog);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2158,7 +2148,6 @@ sdi.plugins.LayerDetailSheet = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(sdi.plugins.LayerDetailSheet.prototype.ptype, sdi.plugins.LayerDetailSheet);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2235,7 +2224,6 @@ sdi.plugins.LayerDownload = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(sdi.plugins.LayerDownload.prototype.ptype, sdi.plugins.LayerDownload);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2312,7 +2300,6 @@ sdi.plugins.LayerOrder = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(sdi.plugins.LayerOrder.prototype.ptype, sdi.plugins.LayerOrder);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -2386,7 +2373,6 @@ sdi.gxp.plugins.OLSource = Ext.extend(gxp.plugins.OLSource, {
 });
 
 Ext.preg(sdi.gxp.plugins.OLSource.prototype.ptype, sdi.gxp.plugins.OLSource);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2622,7 +2608,6 @@ sdi.widgets.IndoorLevelSlider = Ext.extend(Ext.slider.SingleSlider, {
 
 /** api: xtype = sdi_indoorlevelslider */
 Ext.reg('sdi_indoorlevelslider', sdi.widgets.IndoorLevelSlider);
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2723,7 +2708,6 @@ sdi.widgets.IndoorLevelSliderTip = Ext.extend(GeoExt.SliderTip, {
         return this.compiledTemplate.apply(data);
     }
 });
-
 /**
  * @version     4.4.5
  * @package     com_easysdi_core
@@ -2966,4 +2950,3 @@ predefinedPerimeter.prototype.setListenerIndoorLevelChanged = function(f) {
 predefinedPerimeter.prototype.setListenerFeatureAdded = function(f) {
     selectLayer.events.register("featureadded", selectLayer, f);
 };
-

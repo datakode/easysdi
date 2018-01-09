@@ -402,7 +402,6 @@ gxp.util = {
     })()
 
 };
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -829,7 +828,6 @@ gxp.data.AutoCompleteProxy = Ext.extend(GeoExt.data.ProtocolProxy, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -898,7 +896,6 @@ gxp.data.AutoCompleteReader = Ext.extend(GeoExt.data.FeatureReader, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -978,7 +975,6 @@ gxp.data.GroupStyleReader = Ext.extend(GeoExt.data.StyleReader, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1048,7 +1044,6 @@ gxp.data.RuleGroupReader = Ext.extend(GeoExt.data.StyleReader, {
     }
     
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1236,7 +1231,6 @@ gxp.data.FeatureTypeClassifier = Ext.extend(Ext.util.Observable, {
     }
     
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1348,7 +1342,6 @@ gxp.data.WFSFeatureStore = Ext.extend(GeoExt.data.FeatureStore, {
     }
     
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1597,7 +1590,6 @@ gxp.data.WFSProtocolProxy = Ext.extend(GeoExt.data.ProtocolProxy, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -1703,7 +1695,6 @@ gxp.menu.LayerMenu = Ext.extend(Ext.menu.Menu, {
 });
 
 Ext.reg('gxp_layermenu', gxp.menu.LayerMenu);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -2072,7 +2063,6 @@ gxp.EmbedMapDialog = Ext.extend(Ext.Container, {
 
 /** api: xtype = gxp_embedmapdialog */
 Ext.reg('gxp_embedmapdialog', gxp.EmbedMapDialog);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -2544,7 +2534,6 @@ gxp.FeatureEditPopup = Ext.extend(GeoExt.Popup, {
 
 /** api: xtype = gxp_featureeditpopup */
 Ext.reg('gxp_featureeditpopup', gxp.FeatureEditPopup);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -3157,7 +3146,6 @@ gxp.FilterBuilder.NOT_ALL_OF = 3;
 
 /** api: xtype = gxp_filterbuilder */
 Ext.reg('gxp_filterbuilder', gxp.FilterBuilder); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -3632,7 +3620,6 @@ gxp.QueryPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_querypanel */
 Ext.reg('gxp_querypanel', gxp.QueryPanel); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -3734,7 +3721,6 @@ gxp.StylePropertiesDialog = Ext.extend(Ext.Container, {
 
 /** api: xtype = gxp_styleproperties */
 Ext.reg('gxp_stylepropertiesdialog', gxp.StylePropertiesDialog);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -4352,7 +4338,6 @@ gxp.WMSLayerPanel = Ext.extend(Ext.TabPanel, {
 });
 
 Ext.reg('gxp_wmslayerpanel', gxp.WMSLayerPanel); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -5579,7 +5564,6 @@ OpenLayers.Renderer.defaultSymbolizer = {
 
 /** api: xtype = gxp_wmsstylesdialog */
 Ext.reg('gxp_wmsstylesdialog', gxp.WMSStylesDialog);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -5829,7 +5813,6 @@ gxp.NewSourceDialog = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_newsourcedialog */
 Ext.reg('gxp_newsourcedialog', gxp.NewSourceDialog);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -5921,7 +5904,6 @@ gxp.NewSourceWindow = Ext.extend(Ext.Window, {
     addSource: function(url, success, failure, scope) {
     }
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -6103,7 +6085,6 @@ gxp.FillSymbolizer = Ext.extend(Ext.FormPanel, {
 
 /** api: xtype = gxp_fillsymbolizer */
 Ext.reg('gxp_fillsymbolizer', gxp.FillSymbolizer);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -6334,7 +6315,6 @@ gxp.StrokeSymbolizer = Ext.extend(Ext.FormPanel, {
 
 /** api: xtype = gxp_strokesymbolizer */
 Ext.reg('gxp_strokesymbolizer', gxp.StrokeSymbolizer); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -6636,7 +6616,6 @@ gxp.PointSymbolizer = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_pointsymbolizer */
 Ext.reg('gxp_pointsymbolizer', gxp.PointSymbolizer);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -7175,7 +7154,6 @@ gxp.LayerUploadPanel = Ext.extend(Ext.FormPanel, {
 
 /** api: xtype = gxp_layeruploadpanel */
 Ext.reg("gxp_layeruploadpanel", gxp.LayerUploadPanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -7244,7 +7222,6 @@ gxp.LineSymbolizer = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_linesymbolizer */
 Ext.reg('gxp_linesymbolizer', gxp.LineSymbolizer);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -7323,7 +7300,6 @@ gxp.PolygonSymbolizer = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_linesymbolizer */
 Ext.reg('gxp_polygonsymbolizer', gxp.PolygonSymbolizer);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -7839,7 +7815,6 @@ gxp.RulePanel = Ext.extend(Ext.TabPanel, {
 
 /** api: xtype = gxp_rulepanel */
 Ext.reg('gxp_rulepanel', gxp.RulePanel); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -8235,7 +8210,6 @@ gxp.ScaleLimitPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_scalelimitpanel */
 Ext.reg('gxp_scalelimitpanel', gxp.ScaleLimitPanel); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -8953,7 +8927,6 @@ gxp.TextSymbolizer = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_textsymbolizer */
 Ext.reg('gxp_textsymbolizer', gxp.TextSymbolizer); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -9900,7 +9873,6 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
     // OGC "standardized rendering pixel size"
     OpenLayers.DOTS_PER_INCH = 25.4 / 0.28;
 })();
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -9994,7 +9966,6 @@ gxp.tree.TreeGridNodeUI = Ext.ux && Ext.ux.tree && Ext.ux.tree.TreeGridNodeUI &&
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -10145,7 +10116,6 @@ Ext.extend(gxp.tree.SymbolizerLoader, Ext.util.Observable, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -10319,7 +10289,6 @@ gxp.grid.SymbolizerGrid = Ext.ux && Ext.ux.tree && Ext.ux.tree.TreeGrid && Ext.e
 
 /** api: xtype = gxp_symbolgrid */
 gxp.grid.SymbolizerGrid && Ext.reg('gxp_symbolgrid', gxp.grid.SymbolizerGrid);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -10554,7 +10523,6 @@ gxp.form.AutoCompleteComboBox = Ext.extend(Ext.form.ComboBox, {
 });
 
 Ext.reg(gxp.form.AutoCompleteComboBox.prototype.xtype, gxp.form.AutoCompleteComboBox);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -10636,7 +10604,6 @@ gxp.form.ComparisonComboBox = Ext.extend(Ext.form.ComboBox, {
 });
 
 Ext.reg("gxp_comparisoncombo", gxp.form.ComparisonComboBox);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -10825,7 +10792,6 @@ gxp.form.ColorField = Ext.extend(Ext.form.TextField,  {
 });
 
 Ext.reg("gxp_colorfield", gxp.form.ColorField);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -11135,7 +11101,6 @@ gxp.form.FilterField = Ext.extend(Ext.form.CompositeField, {
 });
 
 Ext.reg('gxp_filterfield', gxp.form.FilterField);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -11213,7 +11178,6 @@ gxp.form.FontComboBox = Ext.extend(Ext.form.ComboBox, {
 
 /** api: xtype = gxp_fontcombo */
 Ext.reg("gxp_fontcombo", gxp.form.FontComboBox);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -11406,7 +11370,6 @@ gxp.form.GoogleGeocoderComboBox = Ext.extend(Ext.form.ComboBox, {
 });
 
 Ext.reg(gxp.form.GoogleGeocoderComboBox.prototype.xtype, gxp.form.GoogleGeocoderComboBox);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -11523,7 +11486,6 @@ gxp.form.ViewerField = Ext.extend(Ext.form.TextArea, {
 });
 
 Ext.reg("gxp_viewerfield", gxp.form.ViewerField);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -11709,7 +11671,6 @@ gxp.form.ExtendedDateField = Ext.extend(Ext.form.DateField, {
 });
 
 Ext.reg('gxp_datefield', gxp.form.ExtendedDateField);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -12064,7 +12025,6 @@ gxp.grid.CapabilitiesGrid = Ext.extend(Ext.grid.GridPanel, {
 
 /** api: xtype = gxp_capabilitiesgrid */
 Ext.reg('gxp_capabilitiesgrid', gxp.grid.CapabilitiesGrid); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -12339,7 +12299,6 @@ gxp.grid.FeatureGrid = Ext.extend(Ext.grid.GridPanel, {
 
 /** api: xtype = gxp_featuregrid */
 Ext.reg('gxp_featuregrid', gxp.grid.FeatureGrid); 
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -12738,7 +12697,6 @@ gxp.GoogleEarthPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_googleearthpanel */
 Ext.reg("gxp_googleearthpanel", gxp.GoogleEarthPanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -12889,7 +12847,6 @@ gxp.GoogleStreetViewPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_googlestreetviewpanel */
 Ext.reg("gxp_googlestreetviewpanel", gxp.GoogleStreetViewPanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -12984,7 +12941,6 @@ gxp.Histogram = Ext.extend(Ext.BoxComponent, {
 
 /** api: xtype = gxp_histogram */
 Ext.reg("gxp_histogram", gxp.Histogram);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -13064,7 +13020,6 @@ gxp.slider.Tip = Ext.extend(Ext.slider.Tip, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -13488,7 +13443,6 @@ gxp.slider.TimeSlider = Ext.extend(Ext.slider.MultiSlider, {
 });
 
 Ext.reg('gxp_timeslider', gxp.slider.TimeSlider);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -14074,7 +14028,6 @@ gxp.PlaybackToolbar.smartIntervalFormat = function(diff){
 
 /** api: xtype = gxp_playbacktoolbar */
 Ext.reg('gxp_playbacktoolbar', gxp.PlaybackToolbar);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -14194,7 +14147,6 @@ gxp.form.PlaybackModeComboBox = Ext.extend(Ext.form.ComboBox, {
 
 /** api: xtype = gxp_fontcombo */
 Ext.reg("gxp_playbackmodecombo", gxp.form.PlaybackModeComboBox);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -14480,7 +14432,6 @@ gxp.PlaybackOptionsPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_playbackoptions */
 Ext.reg('gxp_playbackoptions', gxp.PlaybackOptionsPanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -14598,7 +14549,6 @@ gxp.slider.ClassBreakSlider = Ext.extend(Ext.slider.MultiSlider, {
 
 /** api: xtype = gxp_classbreakslider */
 Ext.reg('gxp_classbreakslider', gxp.slider.ClassBreakSlider);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -15520,7 +15470,6 @@ gxp.TimelinePanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_timelinepanel */
 Ext.reg("gxp_timelinepanel", gxp.TimelinePanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -15662,7 +15611,6 @@ gxp.form.CSWFilterField = Ext.extend(Ext.form.CompositeField, {
 
 /** api: xtype = gxp_cswfilterfield */
 Ext.reg('gxp_cswfilterfield', gxp.form.CSWFilterField);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -16132,7 +16080,6 @@ gxp.CatalogueSearchPanel = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_cataloguesearchpanel */
 Ext.reg('gxp_cataloguesearchpanel', gxp.CatalogueSearchPanel);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -16325,7 +16272,6 @@ gxp.ScaleOverlay = Ext.extend(Ext.Panel, {
 
 /** api: xtype = gxp_scaleoverlay */
 Ext.reg('gxp_scaleoverlay', gxp.ScaleOverlay);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -16491,7 +16437,6 @@ gxp.plugins.LayerSource = Ext.extend(Ext.util.Observable, {
         return Ext.apply({}, this.initialConfig);
     }
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -16679,7 +16624,6 @@ gxp.plugins.BingSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.BingSource.prototype.ptype, gxp.plugins.BingSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -17583,7 +17527,6 @@ gxp.plugins.WMSSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.WMSSource.prototype.ptype, gxp.plugins.WMSSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -17788,7 +17731,6 @@ gxp.plugins.WMSCSource = Ext.extend(gxp.plugins.WMSSource, {
 });
 
 Ext.preg(gxp.plugins.WMSCSource.prototype.ptype, gxp.plugins.WMSCSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -17967,7 +17909,6 @@ gxp.plugins.OSMSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.OSMSource.prototype.ptype, gxp.plugins.OSMSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -18332,7 +18273,6 @@ gxp.plugins.GoogleSource.loader = new (Ext.extend(Ext.util.Observable, {
 }))();
 
 Ext.preg(gxp.plugins.GoogleSource.prototype.ptype, gxp.plugins.GoogleSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -18483,7 +18423,6 @@ gxp.plugins.OLSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.OLSource.prototype.ptype, gxp.plugins.OLSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -18709,7 +18648,6 @@ gxp.plugins.MapBoxSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.MapBoxSource.prototype.ptype, gxp.plugins.MapBoxSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -18915,7 +18853,6 @@ gxp.plugins.MapQuestSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.MapQuestSource.prototype.ptype, gxp.plugins.MapQuestSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19051,7 +18988,6 @@ gxp.plugins.CatalogueSource = Ext.extend(gxp.plugins.WMSSource, {
      */
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19201,7 +19137,6 @@ gxp.plugins.CSWCatalogueSource = Ext.extend(gxp.plugins.CatalogueSource, {
 });
 
 Ext.preg(gxp.plugins.CSWCatalogueSource.prototype.ptype, gxp.plugins.CSWCatalogueSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19367,7 +19302,6 @@ gxp.plugins.GeoNodeCatalogueSource = Ext.extend(gxp.plugins.CatalogueSource, {
 });
 
 Ext.preg(gxp.plugins.GeoNodeCatalogueSource.prototype.ptype, gxp.plugins.GeoNodeCatalogueSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19586,7 +19520,6 @@ gxp.plugins.TMSSource = Ext.extend(gxp.plugins.LayerSource, {
 });
 
 Ext.preg(gxp.plugins.TMSSource.prototype.ptype, gxp.plugins.TMSSource);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19676,7 +19609,6 @@ gxp.plugins.StyleWriter = Ext.extend(Ext.util.Observable, {
     }
 
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -19884,7 +19816,6 @@ gxp.plugins.GeoServerStyleWriter = Ext.extend(gxp.plugins.StyleWriter, {
 
 /** api: ptype = gxp_geoserverstylewriter */
 Ext.preg("gxp_geoserverstylewriter", gxp.plugins.GeoServerStyleWriter);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -20336,7 +20267,6 @@ gxp.plugins.Tool = Ext.extend(Ext.util.Observable, {
 });
 
 Ext.preg(gxp.plugins.Tool.prototype.ptype, gxp.plugins.Tool);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -20562,7 +20492,6 @@ gxp.plugins.ClickableFeatures = Ext.extend(gxp.plugins.Tool, {
     }
     
 });
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -20698,7 +20627,6 @@ gxp.plugins.DeleteSelectedFeatures = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.DeleteSelectedFeatures.prototype.ptype, gxp.plugins.DeleteSelectedFeatures);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -20798,7 +20726,6 @@ gxp.plugins.GoogleGeocoder = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.GoogleGeocoder.prototype.ptype, gxp.plugins.GoogleGeocoder);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -21108,7 +21035,6 @@ gxp.plugins.GoogleEarth.loader = new (Ext.extend(Ext.util.Observable, {
 }))();
 
 Ext.preg(gxp.plugins.GoogleEarth.prototype.ptype, gxp.plugins.GoogleEarth);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -21263,7 +21189,6 @@ gxp.plugins.WMSFilterView = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.WMSFilterView.prototype.ptype, gxp.plugins.WMSFilterView);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -21624,7 +21549,6 @@ gxp.plugins.WMSRasterStylesDialog = {
 
 /** api: ptype = gxp_wmsrasterstylesdialog */
 Ext.preg("gxp_wmsrasterstylesdialog", gxp.plugins.WMSRasterStylesDialog);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -21979,7 +21903,6 @@ gxp.plugins.FormFieldHelp = Ext.extend(Object, {
 });
 
 Ext.preg(gxp.plugins.FormFieldHelp.prototype.ptype, gxp.plugins.FormFieldHelp);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -22056,7 +21979,6 @@ gxp.plugins.SchemaAnnotations = {
         return result;
     }
 };
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -22323,7 +22245,6 @@ Ext.override(gxp.plugins.FeatureEditorGrid, gxp.plugins.SchemaAnnotations);
 
 Ext.preg(gxp.plugins.FeatureEditorGrid.prototype.ptype, gxp.plugins.FeatureEditorGrid);
 Ext.reg(gxp.plugins.FeatureEditorGrid.prototype.xtype, gxp.plugins.FeatureEditorGrid);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -22620,7 +22541,6 @@ Ext.override(gxp.plugins.FeatureEditorForm, gxp.plugins.SchemaAnnotations);
 
 Ext.preg(gxp.plugins.FeatureEditorForm.prototype.ptype, gxp.plugins.FeatureEditorForm);
 Ext.reg(gxp.plugins.FeatureEditorForm.prototype.xtype, gxp.plugins.FeatureEditorForm);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -22771,7 +22691,6 @@ gxp.plugins.VersionedEditor = Ext.extend(Ext.TabPanel, {
 });
 
 Ext.preg(gxp.plugins.VersionedEditor.prototype.ptype, gxp.plugins.VersionedEditor);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -23678,7 +23597,6 @@ gxp.plugins.FeatureEditor = Ext.extend(gxp.plugins.ClickableFeatures, {
 });
 
 Ext.preg(gxp.plugins.FeatureEditor.prototype.ptype, gxp.plugins.FeatureEditor);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -24023,7 +23941,6 @@ gxp.plugins.FeatureGrid = Ext.extend(gxp.plugins.ClickableFeatures, {
 });
 
 Ext.preg(gxp.plugins.FeatureGrid.prototype.ptype, gxp.plugins.FeatureGrid);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -25178,7 +25095,6 @@ gxp.plugins.FeatureManager.QUADTREE_PAGING = 0;
 gxp.plugins.FeatureManager.WFS_PAGING = 1;
 
 Ext.preg(gxp.plugins.FeatureManager.prototype.ptype, gxp.plugins.FeatureManager);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -25265,7 +25181,6 @@ gxp.plugins.FeatureToField = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.FeatureToField.prototype.ptype, gxp.plugins.FeatureToField);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -25587,7 +25502,6 @@ gxp.plugins.QueryForm = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.QueryForm.prototype.ptype, gxp.plugins.QueryForm);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -25878,7 +25792,6 @@ gxp.plugins.LayerTree = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.LayerTree.prototype.ptype, gxp.plugins.LayerTree);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -26012,7 +25925,6 @@ gxp.plugins.LayerManager = Ext.extend(gxp.plugins.LayerTree, {
 });
 
 Ext.preg(gxp.plugins.LayerManager.prototype.ptype, gxp.plugins.LayerManager);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -26995,7 +26907,6 @@ gxp.plugins.AddLayers = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.AddLayers.prototype.ptype, gxp.plugins.AddLayers);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27082,7 +26993,6 @@ gxp.plugins.RemoveLayer = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.RemoveLayer.prototype.ptype, gxp.plugins.RemoveLayer);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27204,7 +27114,6 @@ gxp.plugins.SelectedFeatureActions = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.SelectedFeatureActions.prototype.ptype, gxp.plugins.SelectedFeatureActions);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27510,7 +27419,6 @@ gxp.plugins.SnappingAgent = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.SnappingAgent.prototype.ptype, gxp.plugins.SnappingAgent);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27772,7 +27680,6 @@ gxp.plugins.Styler = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Styler.prototype.ptype, gxp.plugins.Styler);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27860,7 +27767,6 @@ gxp.plugins.NavigationHistory = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.NavigationHistory.prototype.ptype, gxp.plugins.NavigationHistory);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -27988,7 +27894,6 @@ gxp.plugins.Zoom = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Zoom.prototype.ptype, gxp.plugins.Zoom);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28119,7 +28024,6 @@ gxp.plugins.ZoomToExtent = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.ZoomToExtent.prototype.ptype, gxp.plugins.ZoomToExtent);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28208,7 +28112,6 @@ gxp.plugins.ZoomToDataExtent = Ext.extend(gxp.plugins.ZoomToExtent, {
 });
 
 Ext.preg(gxp.plugins.ZoomToDataExtent.prototype.ptype, gxp.plugins.ZoomToDataExtent);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28295,7 +28198,6 @@ gxp.plugins.ZoomToLayerExtent = Ext.extend(gxp.plugins.ZoomToExtent, {
 });
 
 Ext.preg(gxp.plugins.ZoomToLayerExtent.prototype.ptype, gxp.plugins.ZoomToLayerExtent);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28422,7 +28324,6 @@ gxp.plugins.ZoomToSelectedFeatures = Ext.extend(gxp.plugins.ZoomToExtent, {
 });
 
 Ext.preg(gxp.plugins.ZoomToSelectedFeatures.prototype.ptype, gxp.plugins.ZoomToSelectedFeatures);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28711,7 +28612,6 @@ gxp.plugins.Measure = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Measure.prototype.ptype, gxp.plugins.Measure);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28797,7 +28697,6 @@ gxp.plugins.Navigation = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Navigation.prototype.ptype, gxp.plugins.Navigation);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -28928,7 +28827,6 @@ gxp.plugins.LayerProperties = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.LayerProperties.prototype.ptype, gxp.plugins.LayerProperties);
-
 /**
  * Copyright (c) 2008-2012 The Open Planning Project
  * 
@@ -29078,7 +28976,6 @@ gxp.plugins.MapProperties = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.MapProperties.prototype.ptype, gxp.plugins.MapProperties);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -29188,7 +29085,6 @@ gxp.plugins.Legend = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Legend.prototype.ptype, gxp.plugins.Legend);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -29540,7 +29436,6 @@ gxp.plugins.Print = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Print.prototype.ptype, gxp.plugins.Print);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -29641,7 +29536,6 @@ gxp.plugins.LoadingIndicator = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.LoadingIndicator.prototype.ptype, gxp.plugins.LoadingIndicator);
-
 /**
  * Copyright (c) 2008-2011 The Open Planning Project
  * 
@@ -29884,7 +29778,6 @@ gxp.plugins.Playback = Ext.extend(gxp.plugins.Tool, {
 });
 
 Ext.preg(gxp.plugins.Playback.prototype.ptype, gxp.plugins.Playback);
-
 /**
  * Copyright (c) 2008 The Open Planning Project
  */

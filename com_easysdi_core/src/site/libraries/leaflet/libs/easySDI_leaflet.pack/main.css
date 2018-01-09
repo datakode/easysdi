@@ -1799,7 +1799,6 @@
 .fa-medium:before {
   content: "\f23a";
 }
-
 .leaflet-zoom-box-control {
     font-size: 18px;
  }
@@ -1962,7 +1961,6 @@
     background-image: url(images/trash_@2X.png);
     background-size: 11px 12px
 }
-
 
 .leaflet-control-geocoder {
 	background: white;
@@ -2736,5 +2734,4 @@ body {
     padding: 0;
     margin: 0;
 }
-
 
