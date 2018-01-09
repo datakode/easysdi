@@ -2,6 +2,21 @@
 
 /src/*
 /utils/*
-*/target/*
-*/META-INF/*
+/target/*
+*/META-INF
 *easysdi_*.xml
+*/sdiBuildInfos.php
+*/easysdicontact.xml
+*/sdimonitor.xml
+*/easysdiservice.xml
+*/getdiffudownloadables.xml
+*/getdiffudownloads.xml
+*/getdiffuextractables.xml
+*/getdiffuextractions.xml
+*/getordersaresptime.xml
+*/getordersbutton.xml
+*/getorganisms.xml
+*/getresources.xml
+*/getusers.xml
+*/getusersbutton.xml
+*/templateDetails.xml
