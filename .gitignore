@@ -3,7 +3,10 @@
 /src/*
 /utils/*
 */target/*
+/target/*
+/target/
 */META-INF/*
+*/META-INF/
 *easysdi_*.xml
 */sdiBuildInfos.php
 */easysdicontact.xml
