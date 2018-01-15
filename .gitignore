@@ -1,6 +1,7 @@
 #Ignore:
 
 /src/*
+*/src/*
 /utils/*
 */target/*
 /target/*
